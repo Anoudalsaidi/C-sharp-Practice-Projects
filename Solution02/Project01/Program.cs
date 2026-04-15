@@ -46,7 +46,7 @@ namespace Project01
 
 
 
-            #region Task-3 IF CONDITION :Syudent Grade System 
+            #region Task-3 Conditions and If Statements :Syudent Grade System 
             Console.WriteLine("Enter student score (0 - 100):");
             int score = Convert.ToInt32(Console.ReadLine());
 
