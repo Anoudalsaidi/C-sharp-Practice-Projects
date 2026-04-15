@@ -7,8 +7,8 @@ namespace Project01
         static void Main(string[] args)
         {
 
-             
-            #region Task 1: Positive - Negative - Zero Numbers
+
+            #region Task-1 IF CONDITION : Positive - Negative - Zero Numbers
 
             Console.WriteLine("Enter a number:");
             int num = Convert.ToInt32(Console.ReadLine());
@@ -28,7 +28,7 @@ namespace Project01
             #endregion
 
 
-            #region Task 2: Even or Odd
+            #region Task-2 IF CONDITION : Even or Odd
             Console.WriteLine("Enter an integer number:");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
@@ -46,7 +46,7 @@ namespace Project01
 
 
 
-            #region Task 3: Syudent Grade System 
+            #region Task-3 IF CONDITION :Syudent Grade System 
             Console.WriteLine("Enter student score (0 - 100):");
             int score = Convert.ToInt32(Console.ReadLine());
 
@@ -79,7 +79,7 @@ namespace Project01
 
 
 
-            #region Task 4:Simple Login System
+            #region Task-4 IF CONDITION :Simple Login System
             Console.WriteLine("Enter username:");
             string username = Console.ReadLine();
 
@@ -97,8 +97,8 @@ namespace Project01
             #endregion
 
 
-            
-            #region // Task 5: Simple ATM System
+
+            #region // Task-5 IF CONDITION :Simple ATM System
             int balance = 1000;
 
             Console.WriteLine("Enter withdrawal amount:");
