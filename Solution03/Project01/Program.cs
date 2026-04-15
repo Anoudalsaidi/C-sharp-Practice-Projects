@@ -33,7 +33,7 @@
                     Console.WriteLine("Sunday");
                     break;
                 default:
-                    Console.WriteLine("Invalid day number");
+                    Console.WriteLine("Invalid day number, Try Agin!");
                     break;
             }
             #endregion
