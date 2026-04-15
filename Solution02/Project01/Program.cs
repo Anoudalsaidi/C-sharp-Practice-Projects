@@ -8,7 +8,7 @@ namespace Project01
         {
 
 
-            #region Task-1 IF CONDITION : Positive - Negative - Zero Numbers
+            #region Task-1 Conditions and If Statements : Positive - Negative - Zero Numbers
 
             Console.WriteLine("Enter a number:");
             int num = Convert.ToInt32(Console.ReadLine());
