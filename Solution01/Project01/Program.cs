@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+
+            // Arthmatic opratoins: 
+
             Console.WriteLine("plz enter first number :");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
