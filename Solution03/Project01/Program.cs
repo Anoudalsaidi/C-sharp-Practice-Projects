@@ -48,6 +48,25 @@
             }
             #endregion
 
+            #region Task 3: while Loop Statements
+            Console.WriteLine("Enter a positive number:");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            if (num2 <= 0)
+            {
+                Console.WriteLine("Please enter a positive number");
+            }
+            else
+            {
+                while (num2 >= 1)
+                {
+                    Console.WriteLine(num2);
+                    num2--;
+                }
+
+                Console.WriteLine("Go!");
+            }
+            #endregion
         }
     }
 }
