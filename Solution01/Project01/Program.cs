@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            // Arthmatic opratoins: 
+            // Arithmetic Operators: 
 
             Console.WriteLine("plz enter first number :");
             int num1 = Convert.ToInt32(Console.ReadLine());

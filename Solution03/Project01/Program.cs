@@ -38,6 +38,16 @@
             }
             #endregion
 
+            #region Task 2: For Loop Statements
+            Console.WriteLine("Enter a number:");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine($"{num1} x {i} = {num1 * i}");
+            }
+            #endregion
+
         }
     }
 }
