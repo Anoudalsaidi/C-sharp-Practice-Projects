@@ -5,22 +5,26 @@
         static void Main(string[] args)
         {
             #region For Loop
+
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("My Age is 20");
             }
 
+            #endregion
 
+            #region Input Loop
 
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Enter Number:");
-                int num = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("My Age is 20");
+                int num1 = Convert.ToInt32(Console.ReadLine());
             }
+
             #endregion
 
-            #region Insted Loop
+            #region Nested Loop
+
             for (int x = 1; x < 6; x++)
             {
                 for (int y = 1; y < 6; y++)
@@ -28,11 +32,35 @@
                     Console.WriteLine($"({x},{y})");
                 }
             }
+
             #endregion
 
+            #region Prime Number
 
+            Console.WriteLine("Enter a number:");
+            int num = Convert.ToInt32(Console.ReadLine());
 
+            bool Prime = true;
+
+            for (int i = 2; i < num; i++)
+            {
+                if (num % i == 0)
+                {
+                    Prime = false;
+                    break;
+                }
+            }
+
+            if (num > 1 && Prime)
+            {
+                Console.WriteLine("Prime Number");
+            }
+            else
+            {
+                Console.WriteLine("Not Prime Number");
+            }
+
+            #endregion
         }
     }
-    }
-
+}
