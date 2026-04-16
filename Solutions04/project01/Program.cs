@@ -61,6 +61,29 @@
             }
 
             #endregion
+
+
+            #region While Loop
+            Console.WriteLine("Enter any Number");
+            int numm = Convert.ToInt32(Console.ReadLine());
+
+            Random rand = new Random();
+            int numtry = 0;
+
+            while (numm != 0)
+
+            {
+                numm = rand.Next(1, 10);
+                Console.WriteLine(numm);
+
+                if (numm == 3 && numtry <3)
+                {
+                    Console.WriteLine("Stopped");
+                    break;
+                }
+            }
+        
+            #endregion
         }
     }
 }
