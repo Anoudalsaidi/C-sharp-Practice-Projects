@@ -219,7 +219,7 @@
             {
                 if (num[i] == search)
                 {
-                    Console.WriteLine("Number found at index " + i);
+                    Console.WriteLine("Number Found at Index " + i);
                     found = true;
                     break; 
                 }
@@ -228,7 +228,7 @@
           
             if (!found)
             {
-                Console.WriteLine("Number not found");
+                Console.WriteLine("Number Not Found");
             }
 
             #endregion
