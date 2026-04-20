@@ -101,6 +101,40 @@
 
             #region Q6:Array with calculate MIN input numbers
 
+            //int[] num = new int[5];
+
+            //for (int i = 0; i < num.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number :");
+            //    num[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //int sum = 0;
+            //int min = num[0];
+
+            //Console.WriteLine("_____Numbers______");
+
+            //foreach (int i in num)
+            //{
+            //    Console.WriteLine(i);
+            //    sum += i;
+
+            //    if (i < min)
+            //    {
+            //        min = i;
+            //    }
+            //}
+
+            //Console.WriteLine("_____Sum Number______");
+            //Console.WriteLine(sum);
+
+
+            //Console.WriteLine("_____Min Number______");
+            //Console.WriteLine(min);
+
+            #endregion
+
+            #region Q6:Array with ONLY SHOW EVEN NUMBERS 
             int[] num = new int[5];
 
             for (int i = 0; i < num.Length; i++)
@@ -109,35 +143,15 @@
                 num[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            int sum = 0;
-            int max = num[0];
-            int min = num[0];
-
-            Console.WriteLine("_____Numbers______");
+            Console.WriteLine("_____Even Numbers______");
 
             foreach (int i in num)
             {
-                Console.WriteLine(i);
-                sum += i;
-
-                if (i > max)
+                if (i % 2 == 0)
                 {
-                    max = i;
-                }
-
-                if (i < min)
-                {
-                    min = i;
+                    Console.WriteLine(i);
                 }
             }
-
-            Console.WriteLine("_____Sum Number______");
-            Console.WriteLine(sum);
-
-
-            Console.WriteLine("_____Min Number______");
-            Console.WriteLine(min);
-
             #endregion
 
         }
