@@ -179,6 +179,26 @@
 
             #region Q9:Array with SORT input numbers
 
+            //int[] num = new int[5];
+
+
+            //for (int i = 0; i < num.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number :");
+            //    num[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+
+            //Console.WriteLine("_____Reversed Numbers______");
+
+            //for (int i = num.Length - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(num[i]);
+            //}
+            #endregion
+
+            #region Q10:Array with Search array numbers
+
             int[] num = new int[5];
 
          
@@ -188,13 +208,29 @@
                 num[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-           
-            Console.WriteLine("_____Reversed Numbers______");
+          
+            Console.WriteLine("Enter number to search:");
+            int search = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = num.Length - 1; i >= 0; i--)
+            bool found = false;
+
+           
+            for (int i = 0; i < num.Length; i++)
             {
-                Console.WriteLine(num[i]);
+                if (num[i] == search)
+                {
+                    Console.WriteLine("Number found at index " + i);
+                    found = true;
+                    break; 
+                }
             }
+
+          
+            if (!found)
+            {
+                Console.WriteLine("Number not found");
+            }
+
             #endregion
 
         }
