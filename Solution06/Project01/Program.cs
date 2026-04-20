@@ -68,6 +68,39 @@
 
             #region Q5:Array with calculate MAX input numbers
 
+            //int[] num = new int[5];
+
+            //for (int i = 0; i < num.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number :");
+            //    num[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //int sum = 0;
+            //int max = num[0];
+
+            //Console.WriteLine("_____Numbers______");
+
+            //foreach (int i in num)
+            //{
+            //    Console.WriteLine(i);
+            //    sum += i;
+
+            //    if (i > max) 
+            //    {
+            //        max = i;
+            //    }
+            //}
+
+            //Console.WriteLine("_____Sum Number______");
+            //Console.WriteLine(sum);
+
+            //Console.WriteLine("_____Max Number______");
+            //Console.WriteLine(max);
+            #endregion
+
+            #region Q6:Array with calculate MIN input numbers
+
             int[] num = new int[5];
 
             for (int i = 0; i < num.Length; i++)
@@ -78,6 +111,7 @@
 
             int sum = 0;
             int max = num[0];
+            int min = num[0];
 
             Console.WriteLine("_____Numbers______");
 
@@ -86,17 +120,24 @@
                 Console.WriteLine(i);
                 sum += i;
 
-                if (i > max) 
+                if (i > max)
                 {
                     max = i;
+                }
+
+                if (i < min)
+                {
+                    min = i;
                 }
             }
 
             Console.WriteLine("_____Sum Number______");
             Console.WriteLine(sum);
 
-            Console.WriteLine("_____Max Number______");
-            Console.WriteLine(max);
+
+            Console.WriteLine("_____Min Number______");
+            Console.WriteLine(min);
+
             #endregion
 
         }
