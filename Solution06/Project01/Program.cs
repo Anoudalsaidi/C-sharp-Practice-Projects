@@ -155,26 +155,46 @@
             #endregion
 
             #region Q8:Array with calculate AVERAGE input numbers
+            //int[] num = new int[5];
+
+            //for (int i = 0; i < num.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number :");
+            //    num[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //int sum = 0;
+
+            //foreach (int i in num)
+            //{
+            //    sum += i;
+            //}
+
+            //double avg = (double)sum / num.Length;
+            //Console.WriteLine("--------------");
+            //Console.WriteLine("Sum = " + sum);
+            //Console.WriteLine("--------------");
+            //Console.WriteLine("Average = " + avg);
+            #endregion
+
+            #region Q9:Array with SORT input numbers
+
             int[] num = new int[5];
 
+         
             for (int i = 0; i < num.Length; i++)
             {
                 Console.WriteLine("Enter Number :");
                 num[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            int sum = 0;
-     
-            foreach (int i in num)
-            {
-                sum += i;
-            }
+           
+            Console.WriteLine("_____Reversed Numbers______");
 
-            double avg = (double)sum / num.Length;
-            Console.WriteLine("--------------");
-            Console.WriteLine("Sum = " + sum);
-            Console.WriteLine("--------------");
-            Console.WriteLine("Average = " + avg);
+            for (int i = num.Length - 1; i >= 0; i--)
+            {
+                Console.WriteLine(num[i]);
+            }
             #endregion
 
         }
