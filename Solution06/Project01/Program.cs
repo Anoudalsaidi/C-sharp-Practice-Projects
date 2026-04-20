@@ -4,22 +4,18 @@
     {
         static void Main(string[] args)
         {
-            #region Array:
+            #region Q1:Array using For Loop
 
-            int[] number = new int[4];
+            int[] number = { 10, 20, 30, 40, 50 };
 
-            for(int i=0; i<number.Length; i++)
+            for (int i = 0; i < number.Length; i++)
             {
-                Console.WriteLine("Enter 4 numbers");
-                number[i] = Convert.ToInt32(Console.ReadLine());
-            
-            }
-            Console.WriteLine("___________________");
-            foreach (int i in number)
-            {
-                Console.WriteLine(i);
+
+                Console.WriteLine(number[i]);
+
             }
             #endregion
+
         }
     }
 }
