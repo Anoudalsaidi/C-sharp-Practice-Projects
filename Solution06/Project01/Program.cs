@@ -134,7 +134,27 @@
 
             #endregion
 
-            #region Q6:Array with ONLY SHOW EVEN NUMBERS 
+            #region Q7:Array with ONLY SHOW EVEN NUMBERS 
+            //int[] num = new int[5];
+
+            //for (int i = 0; i < num.Length; i++)
+            //{
+            //    Console.WriteLine("Enter Number :");
+            //    num[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("_____Even Numbers______");
+
+            //foreach (int i in num)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            #endregion
+
+            #region Q8:Array with calculate AVERAGE input numbers
             int[] num = new int[5];
 
             for (int i = 0; i < num.Length; i++)
@@ -143,15 +163,18 @@
                 num[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.WriteLine("_____Even Numbers______");
-
+            int sum = 0;
+     
             foreach (int i in num)
             {
-                if (i % 2 == 0)
-                {
-                    Console.WriteLine(i);
-                }
+                sum += i;
             }
+
+            double avg = (double)sum / num.Length;
+            Console.WriteLine("--------------");
+            Console.WriteLine("Sum = " + sum);
+            Console.WriteLine("--------------");
+            Console.WriteLine("Average = " + avg);
             #endregion
 
         }
