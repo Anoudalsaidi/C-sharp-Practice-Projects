@@ -18,13 +18,31 @@
 
             #region Q2:Array using Foreach
 
-            int[] numbers = { 10, 20, 30, 40, 50 };
+            //int[] numbers = { 10, 20, 30, 40, 50 };
 
 
-            foreach (int num in numbers)
+            //foreach (int num in numbers)
+            //{
+            //    Console.WriteLine(num);
+            //}
+            #endregion
+
+            #region Q3:Array with user input
+
+            int[] num = new int[5];
+
+            for (int i = 0; i < num.Length; i++)
             {
-                Console.WriteLine(num);
+                Console.WriteLine("Enter Number :");
+                num[i] = Convert.ToInt32(Console.ReadLine());
             }
+
+            Console.WriteLine("_____Numbers______");
+            foreach (int i in num)
+            {
+                Console.WriteLine(i);
+            }
+
             #endregion
 
         }
