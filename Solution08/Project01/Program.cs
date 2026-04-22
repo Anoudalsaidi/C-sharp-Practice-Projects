@@ -26,15 +26,15 @@ namespace Project01
             #endregion
 
             #region copy from file to other
-            //try
-            //{
-            //    File.Copy("test.txt", "copy.txt");
+            try
+            {
+                File.Copy("test.txt", "copy.txt");
 
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine(ex.Message);
-            //}
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             #endregion
 
             #region user choose and open one of three text files with error handling
@@ -44,37 +44,37 @@ namespace Project01
 
 
 
-            try
-            {
-                Console.WriteLine("select Exam File:");
-                Console.WriteLine("1 - Exam 1");
-                Console.WriteLine("2 - Exam 2");
-                Console.WriteLine("3 - Exam 3");
+            //try
+            //{
+            //    Console.WriteLine("select Exam File:");
+            //    Console.WriteLine("1 - Exam 1");
+            //    Console.WriteLine("2 - Exam 2");
+            //    Console.WriteLine("3 - Exam 3");
 
-                Console.Write("Enter your choice: ");
-                int select = Convert.ToInt32(Console.ReadLine());
+            //    Console.Write("Enter your choice: ");
+            //    int select = Convert.ToInt32(Console.ReadLine());
 
 
 
-                if (select == 1)
-                    Process.Start("NotePad.exe", "exam1.txt");
+            //    if (select == 1)
+            //        Process.Start("NotePad.exe", "exam1.txt");
 
-                else if (select == 2)
-                    Process.Start("NotePad.exe", "exam2.txt");
+            //    else if (select == 2)
+            //        Process.Start("NotePad.exe", "exam2.txt");
 
-                else if (select == 3)
-                    Process.Start("NotePad.exe", "exam3.txt");
+            //    else if (select == 3)
+            //        Process.Start("NotePad.exe", "exam3.txt");
 
-                else
-                {
-                    Console.WriteLine("Invalid choice!");
-                    return;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine( ex.Message);
-            }
+            //    else
+            //    {
+            //        Console.WriteLine("Invalid choice!");
+            //        return;
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine( ex.Message);
+            //}
 
             #endregion
         }
