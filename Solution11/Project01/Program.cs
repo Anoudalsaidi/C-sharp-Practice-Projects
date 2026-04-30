@@ -21,17 +21,17 @@
 
         static void Calculate()
         {
-            Console.Write("Enter number 1: ");
+            Console.Write("plz Enter number 1: ");
             double num1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Enter number 2: ");
+            Console.Write("plz Enter number 2: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("\nChoose operation:");
-            Console.WriteLine("1 - +");
-            Console.WriteLine("2 - -");
-            Console.WriteLine("3 - *");
-            Console.WriteLine("4 - /");
+            Console.WriteLine("1 )  +");
+            Console.WriteLine("2 ) -");
+            Console.WriteLine("3 ) *");
+            Console.WriteLine("4 ) /");
 
             Console.Write("Your choice: ");
             int op = Convert.ToInt32(Console.ReadLine());

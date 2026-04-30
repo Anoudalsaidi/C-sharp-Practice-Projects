@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\Solutions\\Student\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D672F7C-1382-4A8B-82BE-2274DAF2CD43}|Solution Items{1D672F7C-1382-4A8B-82BE-2274DAF2CD43}|C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\Solutions\\Student\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D672F7C-1382-4A8B-82BE-2274DAF2CD43}|Solution Items{1D672F7C-1382-4A8B-82BE-2274DAF2CD43}|solutionrelative:class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B06E05-9939-4E8A-B399-2C95FCA93951}|Student\\Student.csproj|c:\\users\\anoud\\onedrive\\desktop\\backend\\solutions\\student\\student\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23B06E05-9939-4E8A-B399-2C95FCA93951}|Student\\Student.csproj|solutionrelative:student\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B06E05-9939-4E8A-B399-2C95FCA93951}|Student\\Student.csproj|c:\\users\\anoud\\onedrive\\desktop\\backend\\solutions\\student\\student\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B06E05-9939-4E8A-B399-2C95FCA93951}|Student\\Student.csproj|solutionrelative:student\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "class.cs",
+              "DocumentMoniker": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\Solutions\\Student\\class.cs",
+              "RelativeDocumentMoniker": "class.cs",
+              "ToolTip": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\Solutions\\Student\\class.cs",
+              "RelativeToolTip": "class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:01:41.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\Solutions\\Student\\Student\\UserControl1.cs",
+              "RelativeDocumentMoniker": "Student\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\Solutions\\Student\\Student\\UserControl1.cs",
+              "RelativeToolTip": "Student\\UserControl1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:57:45.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControl1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\Solutions\\Student\\Student\\UserControl1.cs",
+              "RelativeDocumentMoniker": "Student\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\anoud\\OneDrive\\Desktop\\BackEnd\\Solutions\\Student\\Student\\UserControl1.cs [Design]",
+              "RelativeToolTip": "Student\\UserControl1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T06:57:16.668Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="class" />
+    <File Path="class.cs" />
+  </Folder>
+  <Project Path="WinFormsApp1/WinFormsApp1.csproj" />
+</Solution>
