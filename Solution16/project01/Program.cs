@@ -4,37 +4,69 @@ namespace project01
 {
 
     #region objects Relationship (Assocoation)
-    class student
+    //class student
+    //{
+    //    public string name;
+    //}
+
+    //class study
+    //{
+    //    public string course;
+
+    //    public void teach(student std)
+    //    {
+    //        Console.WriteLine(std.name + " is studying " + course);
+    //    }
+    //}
+
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        student s1 = new student();
+    //        s1.name = "Anoud";
+
+    //        study sub = new study();
+    //        sub.course = "C#";
+
+    //        sub.teach(s1);
+    //    }
+    //}
+    #endregion
+
+    #region objects Relationship ( Aggregation )
+    class Employee
     {
-        public string name;
+        public string Name;
     }
 
-    class study
+    class Department
     {
-        public string course;
+        public string DepartmentName;
 
-        public void teach(student std)
-        {
-            Console.WriteLine(std.name + " is studying " + course);
-        }
+        // Aggregation
+        public List<Employee> Employees = new List<Employee>();
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            student s1 = new student();
-            s1.name = "Anoud";
+            Employee emp1 = new Employee();
+            emp1.Name = "Anoud";
 
-            study sub = new study();
-            sub.course = "C#";
+            Department dept = new Department();
+            dept.DepartmentName = "IT";
 
-            sub.teach(s1);
+            dept.Employees.Add(emp1);
+
+            Console.WriteLine(emp1.Name + " works in " + dept.DepartmentName);
         }
     }
+
     #endregion
 
 
-    }
-    
+}
+
 
