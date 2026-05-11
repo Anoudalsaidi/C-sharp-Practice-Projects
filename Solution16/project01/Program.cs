@@ -88,7 +88,7 @@ namespace project01
         {
             new Room("Bedroom"),
             new Room("Kitchen"),
-            new Room("Living Room")
+            new Room("saloon")
         };
         }
 
